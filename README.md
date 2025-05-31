@@ -1,4 +1,4 @@
-# 🚉 *MTA Ridership Analysis AI Project*
+# 🚉 *MTA Ridership Data Analysis Project*
 
 
 ---
