@@ -5,8 +5,8 @@
 
 ## 👩‍💻 *Team Members*
 
-- *Aliaa Yasser*  
-- *Hager Hamed Abdelrady*  
+- *Aliaa Yasser*  (Leader)
+- *Nada Hamed*  
 - *Nadia Hossny*  
 - *Abdelrhman Sobhy*  
 - *Ahmed Mohamed*
