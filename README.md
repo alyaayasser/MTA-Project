@@ -1,108 +1,98 @@
-🚉 MTA Daily Ridership Data Analysis Project
-🔗 [Kaggle Dataset: MTA Daily Ridership (2020–2024)]
-🔗 [Colab Notebook Analysis (Pandas, Matplotlib, Seaborn)]
-🔗 [Live Visualization Dashboard – Coming Soon]
+# 🚉 *MTA Ridership Analysis AI Project*
 
-👩‍💻 Team Members
+*🔗 [Kaggle Dataset: MTA Daily Ridership (2020–2024)](https://www.kaggle.com/datasets/)*  
+*🔗 [Colab Notebook Analysis (Pandas, Matplotlib, Seaborn)](https://colab.research.google.com/)*  
+*🔗 Live Visualization Dashboard – Coming Soon*
 
-Aliaa Yasser
+---
 
-Nada Hamed
+## 👩‍💻 *Team Members*
 
-Nadia Hossny
+- *Aliaa Yasser*  
+- *Hager Hamed Abdelrady*  
+- *Nadia Hossny*  
+- *Abdelrhman Sobhy*  
+- *Ahmed Mohamed*
 
-Abdelrhman Sobhy
+*Under Supervision:*  
+*Eng. Osama Adel*
 
-Ahmed Mohamed
-Under Supervision:
-Eng. Osama Adel
-Alaa Mahmoud
+---
 
-📝 Project Description
-We developed a data science project focused on analyzing daily ridership data provided by the Metropolitan Transportation Authority (MTA), which operates New York’s largest public transport network.
+## 📝 *Project Description*
 
-Our goal was to:
+We developed a *data science project* focused on analyzing *daily ridership data* provided by the *Metropolitan Transportation Authority (MTA), which operates the **largest public transport network in New York*.
 
-Analyze ridership trends across multiple services (Subways, Buses, Railroads, Traffic)
+*Our goal was to:*
+- Analyze ridership trends across multiple services (Subways, Buses, Railroads, Traffic)
+- Compare post-COVID ridership levels with pre-pandemic benchmarks
+- Provide data-driven recommendations to support transportation planning and recovery strategies
 
-Compare post-COVID ridership levels with pre-pandemic benchmarks
+---
 
-Provide data-driven recommendations to support transportation planning and recovery strategies
+## 📊 *Dataset Overview*
 
-📊 Dataset Overview
-Total Rows: 1706
+- *Total Rows:* 1706  
+- *Total Columns:* 15  
+- *Date Range:* March 2020 to October 2024  
 
-Total Columns: 15
+*Key Attributes:*
+- Date (Primary Key)  
+- Total Estimated Ridership  
+- % of Comparable Pre-Pandemic Day  
+- Service-specific ridership: Subways, Buses, Metro North, LIRR, AAR, Traffic
 
-Date Range: March 2020 to October 2024
+---
 
-Key Attributes:
+## 🛠 *Techniques Used*
 
-Date (Primary Key)
+- *Data Cleaning & Preparation*
+- *Feature Engineering*, including:
+  - Calculating COVID recovery percentages
+  - Weekday vs. Weekend classification
+  - Filtering 2019 data for benchmarking
+- *Exploratory Data Analysis (EDA)*
+- *Time Series & Trend Analysis*
+- *Visualization Tool:* Power BI
 
-Total Estimated Ridership
+---
 
-% of Comparable Pre-Pandemic Day
+## 🚀 *Dashboard/API Overview*
 
-Service-specific ridership: Subways, Buses, Metro North, LIRR, AAR, Traffic
+The project includes an upcoming *interactive dashboard* for advanced ridership analysis.
 
-🛠 Techniques Used
-Data Cleaning & Preparation
+### *Features*
+- Web-based interface for ridership insights
+- Visual comparisons across all MTA services
+- Seasonality analysis (fall/winter trends)
+- Filtering options by weekday, weekend, or transport type
 
-Feature Engineering
+---
 
-Calculating COVID recovery percentages
+## 🔥 *Key Insights*
 
-Weekday vs. Weekend classification
+- All services experienced a *sharp decline in 2020*
+- *Subways recovered faster* and more consistently, especially during *2023 and 2024*
+- *October* recorded the *highest ridership* across all years
+- *No service surpassed a 75% recovery* level
+- *Bridges and tunnels traffic* showed the *strongest recovery* (+3%)
+- *Access-A-Ride (AAR)* recovered by approximately *25%*
+- *Winter had the lowest ridership; **fall had the highest*
+- *Buses initially exceeded subways* post-COVID, but were surpassed by subways by *late 2022*
+- *Metro North and Long Island Rail Road* showed *synchronized trends*
+- *Staten Island* had the *lowest total* and *recovery percentage*
 
-Filtering 2019 data for benchmarking
+---
 
-Visualization Tools:
+## ✅ *Recommendations*
 
-Matplotlib, Seaborn, Pandas
+- *Increase staff, cleaning, and service availability* in *October*, the peak ridership month  
+- Use *October* for *public awareness campaigns* and *new service announcements*  
+- Schedule *maintenance and cost-saving measures* during *January and February*, when ridership is low  
+- *Expand high-demand bus routes* and *reduce waiting times*  
+- Develop *unified strategies* for *Metro North and LIRR* based on their synchronized behavior
 
-Exploratory Data Analysis (EDA)
-
-Time Series & Trend Analysis
-
-🚀 Dashboard/API Overview
-(Coming Soon)
-
-Web-based interface for interactive analysis
-
-Visual comparisons across services
-
-Seasonality insights
-
-Filtered dashboards for Weekdays, Weekends, and Seasons
-
-🔥 Key Insights
-All services experienced a sharp decline in 2020
-
-Subways recovered faster and more consistently, especially during 2023 and 2024
-
-October recorded the highest ridership across all years
-
-No service surpassed a 75% recovery level
-
-Traffic via bridges and tunnels had the strongest recovery (+3%)
-
-Access-A-Ride (AAR) recovered by approximately 25%
-
-Winter months had the lowest ridership; fall had the highest
-
-Buses were initially higher than subways post-COVID but were surpassed by subways in late 2022
-
-Metro North and Long Island Rail Road showed synchronized trends – possibly influenced by external factors
-
-Staten Island had the lowest total and recovery percentage
-
-✅ Recommendations
-Increase staff, cleaning, and service availability in October, the peak ridership month
-
-Use October for public campaigns and new service announcements
-
-Plan maintenance and cost-saving actions in January and February, when ridership is low
+---
 
 Expand high-demand bus routes and reduce wait times
 
