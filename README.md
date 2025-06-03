@@ -19,10 +19,10 @@
 
 ## 📝 *Project Description*
 
-We developed a *data science project* focused on analyzing *daily ridership data* provided by the *Metropolitan Transportation Authority (MTA), which operates the **largest public transport network in New York*.
+We developed a *data analysis project* focused on analyzing *daily ridership data* provided by the *Metropolitan Transportation Authority (MTA), which operates the **largest public transport network in New York*.
 
 *Our goal was to:*
-- Analyze ridership trends across multiple services (Subways, Buses, Railroads, Traffic)
+- Analyze ridership trends across multiple services (Subways, Buses, Metro North, LIRR, AAR,SIR, Traffic)
 - Compare post-COVID ridership levels with pre-pandemic benchmarks
 - Provide data-driven recommendations to support transportation planning and recovery strategies
 
@@ -38,7 +38,7 @@ We developed a *data science project* focused on analyzing *daily ridership data
 - Date (Primary Key)  
 - Total Estimated Ridership  
 - % of Comparable Pre-Pandemic Day  
-- Service-specific ridership: Subways, Buses, Metro North, LIRR, AAR, Traffic
+- Service-specific ridership: Subways, Buses, Metro North, LIRR, AAR,SIR, Traffic
 
 ---
 
